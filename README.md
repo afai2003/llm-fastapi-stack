@@ -17,18 +17,22 @@ A production-ready, scalable backend system for serving LLM predictions using Fa
 ---
 
 ## 📁 Project Structure
+
+```
 .
 ├── app/
-│ ├── main.py # FastAPI entry
-│ ├── routes.py # API endpoints
-│ ├── llm_utils.py # LLM wrapper
-│ ├── cache.py # Redis cache layer
-│ └── config.py # Env and settings
-├── .env # API keys and configs
+│   ├── main.py              # FastAPI entry
+│   ├── routes.py            # API endpoints
+│   ├── llm_utils.py         # LLM wrapper
+│   ├── cache.py             # Redis cache layer
+│   └── config.py            # Env and settings
+├── .env                     # API keys and configs
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+```
+
 
 
 ---
